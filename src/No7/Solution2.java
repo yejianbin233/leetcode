@@ -10,13 +10,6 @@ package No7;/**
  * @Date 2019/11/1 15:58
  **/
 public class Solution2 {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.reverse(-2147483412));
-    }
-
-}
-class Solution {
     public int reverse(int x) {
         long y = 0;
         while (x != 0) {
